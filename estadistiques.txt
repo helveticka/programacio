@@ -1,0 +1,8 @@
+JUGADOR: Harpo
+SOLUCIÓ: dotze
+RESPOSTES:
+jugar
+posit
+notar
+DATA: Tue Jan 31 17:19:57 CET 2023
+***********************************************
