@@ -14,7 +14,7 @@ public class Paraula {
     private char caracter;
     private FitxerParaulaLectura diccionari;
     private int nombreCaracters;
-    private final String[] nomFitxersDiccionaris = {"wordle_catala_diccionari.txt","wordle_castellano_diccionari.txt","wordle_english_diccionari.txt"};
+    private final String[] nomFitxersDiccionaris = {"resources/dict/wordle_catala_diccionari.txt","resources/dict/wordle_castellano_diccionari.txt","resources/dict/wordle_english_diccionari.txt"};
 
     /**
      * Mètode constructor d'un objecte Paraula.

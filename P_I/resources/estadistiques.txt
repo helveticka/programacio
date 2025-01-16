@@ -1,0 +1,11 @@
+JUGADOR: Harpo
+SOLUCIÓ: carpa
+RESPOSTES:
+jugar
+cavar
+acida
+sagna
+balla
+taula
+DATA: Thu Jan 16 09:35:42 CET 2025
+***********************************************
