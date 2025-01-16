@@ -2,6 +2,8 @@ cff-version: 1.2.0
 authors:
 - family-names: "Joan"
   given-names: "Harpo"
-title: "Pràctica final de Programació I"
-date-released: "2022"
-url: "https://github.com/helveticka/programacio_I"
+- family-names: "Vinent"
+  given-names: "Francesc"
+title: "Pràctiques finals de Programació"
+date-released: "2023"
+url: "https://github.com/helveticka/programacio"
