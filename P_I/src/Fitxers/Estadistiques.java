@@ -23,7 +23,7 @@ public class Estadistiques {
      */
     public void escriureInici() throws Exception {
         Linia l = new Linia();
-        estadistiquesLinia = new FitxerLiniaEscriptura("resources/estadistiques.txt", true);
+        estadistiquesLinia = new FitxerLiniaEscriptura("P_I/resources/estadistiques.txt", true);
         
         for (int i = 0; i < 47; i++) {
             l.afegir('*');
@@ -42,7 +42,7 @@ public class Estadistiques {
     public void escriureJugador(Paraula jugador) throws Exception {
         Linia l = new Linia();
         char[] informacio = {'J', 'U', 'G', 'A', 'D', 'O', 'R', ':', ' '};
-        estadistiquesLinia = new FitxerLiniaEscriptura("resources/estadistiques.txt", true);
+        estadistiquesLinia = new FitxerLiniaEscriptura("P_I/resources/estadistiques.txt", true);
         
         for (int i = 0; i < informacio.length; i++) {
             l.afegir(informacio[i]);
@@ -64,7 +64,7 @@ public class Estadistiques {
     public void escriureSolucio(Paraula solucio) throws Exception {
         Linia l = new Linia();
         char[] informacio = {'S', 'O', 'L', 'U', 'C', 'I', 'Ó', ':', ' '};
-        estadistiquesLinia = new FitxerLiniaEscriptura("resources/estadistiques.txt", true);
+        estadistiquesLinia = new FitxerLiniaEscriptura("P_I/resources/estadistiques.txt", true);
         
         for (int i = 0; i < informacio.length; i++) {
             l.afegir(informacio[i]);
@@ -85,7 +85,7 @@ public class Estadistiques {
     public void escriureCapcaleraResposta() throws Exception {
         Linia l = new Linia();
         char[] informacio = {'R', 'E', 'S', 'P', 'O', 'S', 'T', 'E', 'S', ':',};
-        estadistiquesLinia = new FitxerLiniaEscriptura("resources/estadistiques.txt", true);
+        estadistiquesLinia = new FitxerLiniaEscriptura("P_I/resources/estadistiques.txt", true);
         
         for (int i = 0; i < informacio.length; i++) {
             l.afegir(informacio[i]);
@@ -102,7 +102,7 @@ public class Estadistiques {
      * @throws Exception 
      */
     public void escriureResposta(Paraula resposta) throws Exception {
-        estadistiquesParaula = new FitxerParaulaEscriptura("resources/estadistiques.txt", true);
+        estadistiquesParaula = new FitxerParaulaEscriptura("P_I/resources/estadistiques.txt", true);
         
         estadistiquesParaula.escriptura(resposta);
         estadistiquesParaula.novaLinia();
@@ -118,7 +118,7 @@ public class Estadistiques {
         Date data = new Date();
         Linia l = new Linia();
         char[] informacio = {'D', 'A', 'T', 'A', ':', ' '};
-        estadistiquesLinia = new FitxerLiniaEscriptura("resources/estadistiques.txt", true);
+        estadistiquesLinia = new FitxerLiniaEscriptura("P_I/resources/estadistiques.txt", true);
         
         for (int i = 0; i < informacio.length; i++) {
             l.afegir(informacio[i]);
@@ -135,7 +135,7 @@ public class Estadistiques {
      * @throws Exception 
      */
     public void veureEstadistiques() throws Exception {
-        estadistiquesLectura = new FitxerLiniaLectura("resources/estadistiques.txt");
+        estadistiquesLectura = new FitxerLiniaLectura("P_I/resources/estadistiques.txt");
         
         System.out.println("***********************************************");
         System.out.println("                 ESTADÍSTIQUES                 ");

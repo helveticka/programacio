@@ -18,7 +18,7 @@ public class Wordle {
     private final Menu menu = new Menu();
     private final Estadistiques estadistiques = new Estadistiques();
     private FitxerParaulaLectura solucions;
-    private final String[] nomFitxersSolucions = {"resources/dict/wordle_catala_solucions.txt","resources/dict/wordle_castellano_solucions.txt","resources/dict/wordle_english_solucions.txt"};
+    private final String[] nomFitxersSolucions = {"P_I/resources/dict/wordle_catala_solucions.txt","P_I/resources/dict/wordle_castellano_solucions.txt","P_I/resources/dict/wordle_english_solucions.txt"};
     
     /**
      * Mètode que imprimeix la capçalera del joc, i executa els mètodes que

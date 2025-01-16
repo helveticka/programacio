@@ -1,11 +1,11 @@
 JUGADOR: Harpo
-SOLUCIÓ: carpa
+SOLUCIÓ: plana
 RESPOSTES:
 jugar
-cavar
-acida
-sagna
-balla
-taula
-DATA: Thu Jan 16 09:35:42 CET 2025
+cabal
+raval
+fanal
+canal
+fanal
+DATA: Thu Jan 16 09:55:38 CET 2025
 ***********************************************
