@@ -1,5 +1,10 @@
 # Programació
 
+## Content
+
+### P_I: Wordle
+In this directory is stored my very first programming project, which I created both at university and in my life. It's an implementation of the popular game Wordle, made using Java. The main objective was to manipulate strings and files, while developing simple algorithms to introduce myself to the Object-Oriented Programming paradigm.
+
 ## Authors
 Developed by [Harpo Joan](https://github.com/helveticka)
 
