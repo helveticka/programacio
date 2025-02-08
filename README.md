@@ -10,6 +10,8 @@ This folder stores the project for the second part of the course, 'Programming I
 
 ## Authors
 Developed by [Harpo Joan](https://github.com/helveticka) & Francesc Vinent
+- P_I: *by H. Joan*
+- P_II: *by F. Vinent & H. Joan*
 
 ## License
 This repository is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.
